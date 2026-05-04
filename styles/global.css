@@ -1,0 +1,83 @@
+/* Variables Styles */
+:root {
+    /* Cores */
+    --color-primary: #FF69B4;
+    --color-secondary: #FFB6C1;
+    --color-background: #1c1c1c;
+    --color-text: #9194b8;
+
+    /* Fontes */
+    --font-family-primary: 'Arial', sans-serif;
+    --font-family-secondary: 'Helvetica', sans-serif;
+
+    /* Tamanhos */
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementes Styles */
+body {
+    font-family: var(--font-family-primary);
+    background: linear-gradient(#dedede, #f5f1f5, #dedede, #f5f1f5);
+    color: var(--color-text);
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: var(--font-family-secondary);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Classes Styles */
+.icon {
+    width: 24px;
+    height: 24px;
+    color: var(--color-primary);
+}
+
+.bubble-1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  filter: blur(40px);
+  opacity: 0.4;
+}
+
+.bubble-2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 70%;
+  right: 40%;
+  filter: blur(40px);
+  opacity: 0.4;
+}
