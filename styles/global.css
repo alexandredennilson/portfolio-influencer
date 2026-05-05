@@ -27,6 +27,11 @@ body {
     font-family: var(--font-family-primary);
     background: linear-gradient(#dedede, #f5f1f5, #dedede, #f5f1f5);
     color: var(--color-text);
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 ul {
@@ -61,23 +66,66 @@ p {
 }
 
 .bubble-1 {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   position: absolute;
-  top: 10%;
-  right: 5%;
-  filter: blur(40px);
-  opacity: 0.4;
+  top: -8%;
+  filter: blur(80px);
+  opacity: 0.2;
 }
 
 .bubble-2 {
-  width: 200px;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 22%;
+  filter: blur(80px);
+  opacity: 0.2;
+}
+
+.bubble-3 {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 50%;
+  filter: blur(80px);
+  opacity: 0.2;
+  border-radius: 50%;
+}
+/* 
+.bubble-4 {
+  width: 60%;
+  height: 40%;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 155%;
+  right: 0%;
+  filter: blur(40px);
+  opacity: 0.3;
+}
+ */
+/* .bubble-5 {
+  width: 60%;
+  height: 40%;
   height: 200px;
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   position: absolute;
   top: 70%;
   right: 40%;
   filter: blur(40px);
-  opacity: 0.4;
+  opacity: 0.2;
 }
+
+.bubble-6 {
+  width: 60%;
+  height: 40%;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  position: absolute;
+  top: 70%;
+  right: 40%;
+  filter: blur(40px);
+  opacity: 0.2;
+} */
