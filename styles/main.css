@@ -1,5 +1,10 @@
 main {
-    margin-top: 80px;
+    padding-top: 80px;
+
+    
+
+    position: relative;
+    overflow-x: hidden;
 }
 section {
     padding: 20px;
