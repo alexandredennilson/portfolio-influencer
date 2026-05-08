@@ -14,7 +14,7 @@ section {
     z-index: -1;
 } */
 
-.hero {
+.bg-hero {
     position: relative;
     z-index: -1;
 
@@ -22,7 +22,7 @@ section {
     justify-content: center;
 }
 
-.hero img {
+.bg-hero img {
     width: 150%;
     max-width: 500px;
     position: relative;
