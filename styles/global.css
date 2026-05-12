@@ -114,3 +114,12 @@ p {
     background-color: var(--color-secondary);
     color: var(--color-background);
 }
+
+#links {
+    width: 120%;
+    max-width: 600px;
+    display: block;
+    margin-inline: auto;
+    position: relative;
+    right: 10%;
+}
