@@ -1,28 +1,3 @@
-/* Variables Styles */
-:root {
-    /* Cores */
-    --color-primary: #f3f3f371;
-    --color-secondary: #9194b8;
-    --color-background: #e7e7e7;
-    --color-text: #9194b8;
-
-    /* Fontes */
-    --font-family-primary: 'Arial', sans-serif;
-    --font-family-secondary: 'Helvetica', sans-serif;
-
-    /* Tamanhos */
-    --font-size-small: 0.875rem;
-    --font-size-medium: 1rem;
-    --font-size-large: 1.25rem;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Elementes Styles */
 body {
     font-family: var(--font-family-primary);
     background-color: var(--color-background);
@@ -31,7 +6,6 @@ body {
 
 ul {
     list-style: none;
-
     display: flex;
     justify-content: space-evenly;
 }
@@ -51,13 +25,6 @@ p {
     margin-bottom: 15px;
     line-height: 1.6;
     text-align: center;
-}
-
-/* Classes Styles */
-.icon {
-    width: 24px;
-    height: 24px;
-    color: var(--color-primary);
 }
 
 .bubble-1 {
@@ -86,20 +53,9 @@ p {
   z-index: 100;
 }
 
-.hero {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    align-items: center;
-}
-
 .btn-hero {
-    display: flex;
     margin-inline: auto;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
 .btn-1 {
@@ -118,8 +74,6 @@ p {
 }
 
 .container-links {
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
 }
 

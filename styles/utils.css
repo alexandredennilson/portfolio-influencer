@@ -1,0 +1,30 @@
+/* Variables Styles */
+:root {
+    /* Cores */
+    --color-primary: #f3f3f371;
+    --color-secondary: #9194b8;
+    --color-background: #e7e7e7;
+    --color-text: #9194b8;
+
+    /* Fontes */
+    --font-family-primary: 'Arial', sans-serif;
+    --font-family-secondary: 'Helvetica', sans-serif;
+
+    /* Tamanhos */
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
