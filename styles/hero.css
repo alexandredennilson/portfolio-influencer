@@ -2,30 +2,20 @@ main {
     position: relative;
     overflow-x: hidden;
 }
+
 section {
     padding: 20px;
 }
 
-/* .hero {
-    width: 130%;
-    max-width: 500px;
-    position: relative;
-    top: -150px;
-    z-index: -1;
-} */
-
 .bg-hero {
-    position: relative;
-    z-index: -1;
-
     display: flex;
     justify-content: center;
 }
 
 .bg-hero img {
-    width: 150%;
+    width: 180%;
     max-width: 500px;
     position: relative;
     left: 15%;
-    top: -30px;
+    top: -40px;
 }
